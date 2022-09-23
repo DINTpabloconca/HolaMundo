@@ -33,7 +33,7 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (nombreTextBox.Text.Equals("")){
-                nombreTextBlock.Text = "Hola mundo!";
+                nombreTextBlock.Text = "Hola mundo!!";
             }
             else{
                 nombreTextBlock.Text = "Hola " + nombreTextBox.Text + "!";
